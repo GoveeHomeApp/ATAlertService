@@ -1,0 +1,6 @@
+framework module ATAlertService {
+  umbrella header "ATAlertService-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ATAlertService (0.1.0)
+
+DEPENDENCIES:
+  - ATAlertService (from `../`)
+
+EXTERNAL SOURCES:
+  ATAlertService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATAlertService: 724388bdd0b2c1a19287929dba56be850df26ee4
+
+PODFILE CHECKSUM: 84dd4c9f43ee0d21c4cc8e4eafe8d84f641ca9d4
+
+COCOAPODS: 1.14.3

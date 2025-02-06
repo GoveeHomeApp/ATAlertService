@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2524E614F2C6A10B96842D5E718BA86B /* Pods-ATAlertService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5561A8F199A38E952966B498C9ABEABB /* Pods-ATAlertService_Example-dummy.m */; };
+		4F0502F2C5954B6C259F82CEB77F84BC /* Pods-ATAlertService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8C3697A059AF44A36E4BE19625F7E6 /* Pods-ATAlertService_Tests-dummy.m */; };
+		5847BFD752C5C22322C5F29134FD21BF /* ATAlertService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DBD65C96B1A1CD92438CC467F5F1C7 /* ATAlertService-dummy.m */; };
+		705A2F2F9D78F78460463BDAF76C8916 /* Pods-ATAlertService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A72768D41038E42E5816D3A01ED60741 /* Pods-ATAlertService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1853CC810CD873FFE10CDD14F622494 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B4B926A09DC97C1FE3C057050259E72A /* ATAlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304045F40CBBABE4E4C54DBB3DD29CC /* ATAlertService.swift */; };
+		BC9D25CF991F2B9E74E3960998316CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E8F130168CF1605C987045515E1F06B5 /* Pods-ATAlertService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B730DBEBE4BEF4BF3A49D59C9CADBE /* Pods-ATAlertService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF86E12ED520126CF98C34FE762EB810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FD6F50A45CBBD6CBF50527AAE669243E /* ATAlertService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBE61A5239FB4D2F2D34679FBA13034 /* ATAlertService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B87BFA0F28922BCBBA9B5CB3BFD7AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59505F0B8A6C4AC9F9C1B34E63AF4991;
+			remoteInfo = "Pods-ATAlertService_Example";
+		};
+		C7BA4935E773E0DF24027402C9D1F36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48532F86A8EF9D5D8B154A250901F6EC;
+			remoteInfo = ATAlertService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097113B061A2183A1892CF22633F239B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		180CDFAAC8621BE3AB4897201A83BBD8 /* Pods-ATAlertService_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ATAlertService_Tests"; path = Pods_ATAlertService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B730DBEBE4BEF4BF3A49D59C9CADBE /* Pods-ATAlertService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATAlertService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2E9185459C6B8BDB2966D44A21E1926C /* Pods-ATAlertService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAlertService_Tests-Info.plist"; sourceTree = "<group>"; };
+		3458080C069AE4FC63E72C847D9C5757 /* Pods-ATAlertService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATAlertService_Example-frameworks.sh"; sourceTree = "<group>"; };
+		36EB15B87417F1F71ACD0CF3EFB1522D /* ATAlertService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ATAlertService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4A6DBCD4134B6DF98064C42898C03F64 /* Pods-ATAlertService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAlertService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5561A8F199A38E952966B498C9ABEABB /* Pods-ATAlertService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATAlertService_Example-dummy.m"; sourceTree = "<group>"; };
+		575F7CD6AF20E20CC12756925EE30230 /* Pods-ATAlertService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAlertService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5830FEADACB95755D255CAF0F3219C89 /* Pods-ATAlertService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATAlertService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59DBD65C96B1A1CD92438CC467F5F1C7 /* ATAlertService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATAlertService-dummy.m"; sourceTree = "<group>"; };
+		6A2724863E676B31E459162F74382708 /* Pods-ATAlertService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATAlertService_Example.modulemap"; sourceTree = "<group>"; };
+		6C582970175769F885EC2F7B7EF88A27 /* ATAlertService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATAlertService.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		753A8CD0416183775B55ADA50753928D /* Pods-ATAlertService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATAlertService_Tests.modulemap"; sourceTree = "<group>"; };
+		78106705FA04B9CD6482EB945BEEEC8F /* Pods-ATAlertService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAlertService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A8C3697A059AF44A36E4BE19625F7E6 /* Pods-ATAlertService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATAlertService_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FBCD5D56AB9D52AFBBF10FDD39551A6 /* Pods-ATAlertService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAlertService_Example-Info.plist"; sourceTree = "<group>"; };
+		A72768D41038E42E5816D3A01ED60741 /* Pods-ATAlertService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATAlertService_Example-umbrella.h"; sourceTree = "<group>"; };
+		AD68833CFE47A0B96CD72491600209AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AE90D2BD6B2E03E4ECDCA0CDDE82910E /* ATAlertService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATAlertService-prefix.pch"; sourceTree = "<group>"; };
+		B5EC0EB22CF140490FC4636A9A226558 /* Pods-ATAlertService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAlertService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C0959789BC6AA7E8060171FEA8DBFCED /* Pods-ATAlertService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAlertService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D005C45A9F150EBA47F146829225F660 /* ATAlertService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ATAlertService-Info.plist"; sourceTree = "<group>"; };
+		D304045F40CBBABE4E4C54DBB3DD29CC /* ATAlertService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATAlertService.swift; path = ATAlertService/Classes/ATAlertService.swift; sourceTree = "<group>"; };
+		DC5513A2231171019F5C907680A8E2B9 /* Pods-ATAlertService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAlertService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9FEE64242E8B40D5196B765E0163877 /* ATAlertService */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ATAlertService; path = ATAlertService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBE61A5239FB4D2F2D34679FBA13034 /* ATAlertService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATAlertService-umbrella.h"; sourceTree = "<group>"; };
+		F1F8F26AE386E5CAC30940EAE5FE4E51 /* Pods-ATAlertService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATAlertService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB7025D3383132789D73B879F8155D6A /* ATAlertService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAlertService.debug.xcconfig; sourceTree = "<group>"; };
+		FE26838829CE76E9C782011DD37EEC2B /* Pods-ATAlertService_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ATAlertService_Example"; path = Pods_ATAlertService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF19E606245CFC8A4F4A5A3510BBED1C /* ATAlertService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAlertService.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79FD346D6F8AA1D572F7CCF5F63227A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9D25CF991F2B9E74E3960998316CB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FDE442E397D5FFA1BBA4F867E40D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1853CC810CD873FFE10CDD14F622494 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5CEA3AF16C22125050719FFA8B98BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF86E12ED520126CF98C34FE762EB810 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D68ABF44D8C8E47B4150AC40DD4B878 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				36EB15B87417F1F71ACD0CF3EFB1522D /* ATAlertService.podspec */,
+				097113B061A2183A1892CF22633F239B /* LICENSE */,
+				AD68833CFE47A0B96CD72491600209AD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4EC5C04BA6EE495BF8BBBC32167F9B2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9FEE64242E8B40D5196B765E0163877 /* ATAlertService */,
+				FE26838829CE76E9C782011DD37EEC2B /* Pods-ATAlertService_Example */,
+				180CDFAAC8621BE3AB4897201A83BBD8 /* Pods-ATAlertService_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540E64FA90ECED439C6EDB964E38B7B5 /* Pods-ATAlertService_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6A2724863E676B31E459162F74382708 /* Pods-ATAlertService_Example.modulemap */,
+				F1F8F26AE386E5CAC30940EAE5FE4E51 /* Pods-ATAlertService_Example-acknowledgements.markdown */,
+				4A6DBCD4134B6DF98064C42898C03F64 /* Pods-ATAlertService_Example-acknowledgements.plist */,
+				5561A8F199A38E952966B498C9ABEABB /* Pods-ATAlertService_Example-dummy.m */,
+				3458080C069AE4FC63E72C847D9C5757 /* Pods-ATAlertService_Example-frameworks.sh */,
+				9FBCD5D56AB9D52AFBBF10FDD39551A6 /* Pods-ATAlertService_Example-Info.plist */,
+				A72768D41038E42E5816D3A01ED60741 /* Pods-ATAlertService_Example-umbrella.h */,
+				B5EC0EB22CF140490FC4636A9A226558 /* Pods-ATAlertService_Example.debug.xcconfig */,
+				575F7CD6AF20E20CC12756925EE30230 /* Pods-ATAlertService_Example.release.xcconfig */,
+			);
+			name = "Pods-ATAlertService_Example";
+			path = "Target Support Files/Pods-ATAlertService_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		94D9EA36DBF76AA9F749984C6DF61D65 /* Pods-ATAlertService_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				753A8CD0416183775B55ADA50753928D /* Pods-ATAlertService_Tests.modulemap */,
+				5830FEADACB95755D255CAF0F3219C89 /* Pods-ATAlertService_Tests-acknowledgements.markdown */,
+				78106705FA04B9CD6482EB945BEEEC8F /* Pods-ATAlertService_Tests-acknowledgements.plist */,
+				8A8C3697A059AF44A36E4BE19625F7E6 /* Pods-ATAlertService_Tests-dummy.m */,
+				2E9185459C6B8BDB2966D44A21E1926C /* Pods-ATAlertService_Tests-Info.plist */,
+				20B730DBEBE4BEF4BF3A49D59C9CADBE /* Pods-ATAlertService_Tests-umbrella.h */,
+				DC5513A2231171019F5C907680A8E2B9 /* Pods-ATAlertService_Tests.debug.xcconfig */,
+				C0959789BC6AA7E8060171FEA8DBFCED /* Pods-ATAlertService_Tests.release.xcconfig */,
+			);
+			name = "Pods-ATAlertService_Tests";
+			path = "Target Support Files/Pods-ATAlertService_Tests";
+			sourceTree = "<group>";
+		};
+		C0760B8C7E0E033F58DABE6A297C340C /* ATAlertService */ = {
+			isa = PBXGroup;
+			children = (
+				D304045F40CBBABE4E4C54DBB3DD29CC /* ATAlertService.swift */,
+				2D68ABF44D8C8E47B4150AC40DD4B878 /* Pod */,
+				F7C64F8BF256755EC0A86D8DFFC0DFD3 /* Support Files */,
+			);
+			name = ATAlertService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C35B67BD1E91E71223F823ADD5A7BAF8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0760B8C7E0E033F58DABE6A297C340C /* ATAlertService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C35B67BD1E91E71223F823ADD5A7BAF8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4EC5C04BA6EE495BF8BBBC32167F9B2F /* Products */,
+				E3AD0767AFCEEA80D9C66D54EA5A2546 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3AD0767AFCEEA80D9C66D54EA5A2546 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				540E64FA90ECED439C6EDB964E38B7B5 /* Pods-ATAlertService_Example */,
+				94D9EA36DBF76AA9F749984C6DF61D65 /* Pods-ATAlertService_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F7C64F8BF256755EC0A86D8DFFC0DFD3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C582970175769F885EC2F7B7EF88A27 /* ATAlertService.modulemap */,
+				59DBD65C96B1A1CD92438CC467F5F1C7 /* ATAlertService-dummy.m */,
+				D005C45A9F150EBA47F146829225F660 /* ATAlertService-Info.plist */,
+				AE90D2BD6B2E03E4ECDCA0CDDE82910E /* ATAlertService-prefix.pch */,
+				ECBE61A5239FB4D2F2D34679FBA13034 /* ATAlertService-umbrella.h */,
+				FB7025D3383132789D73B879F8155D6A /* ATAlertService.debug.xcconfig */,
+				FF19E606245CFC8A4F4A5A3510BBED1C /* ATAlertService.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ATAlertService";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AEDED4953944721EC9D22C709483BDF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6F50A45CBBD6CBF50527AAE669243E /* ATAlertService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B868FCCB763F66CF6505976586EFC53B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705A2F2F9D78F78460463BDAF76C8916 /* Pods-ATAlertService_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21855C5B3BDE8624B03DBAD1129C3F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F130168CF1605C987045515E1F06B5 /* Pods-ATAlertService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48532F86A8EF9D5D8B154A250901F6EC /* ATAlertService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED036A12F172C838D9C9E80744FC57D /* Build configuration list for PBXNativeTarget "ATAlertService" */;
+			buildPhases = (
+				AEDED4953944721EC9D22C709483BDF0 /* Headers */,
+				E6657368A94CECA573DED71827CDE9D3 /* Sources */,
+				C9FDE442E397D5FFA1BBA4F867E40D03 /* Frameworks */,
+				819EF3CE2A160F1F4705CCCE189661D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATAlertService;
+			productName = ATAlertService;
+			productReference = E9FEE64242E8B40D5196B765E0163877 /* ATAlertService */;
+			productType = "com.apple.product-type.framework";
+		};
+		59505F0B8A6C4AC9F9C1B34E63AF4991 /* Pods-ATAlertService_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9708D348E44F887DF3B9E80A79698F /* Build configuration list for PBXNativeTarget "Pods-ATAlertService_Example" */;
+			buildPhases = (
+				B868FCCB763F66CF6505976586EFC53B /* Headers */,
+				C48CBADC526A2D7134FA760F63517F7E /* Sources */,
+				FF5CEA3AF16C22125050719FFA8B98BD /* Frameworks */,
+				8A124CF9914E381485D607D49560E361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A0EB3C2E410B5A02EA9E04D614BDDFF /* PBXTargetDependency */,
+			);
+			name = "Pods-ATAlertService_Example";
+			productName = Pods_ATAlertService_Example;
+			productReference = FE26838829CE76E9C782011DD37EEC2B /* Pods-ATAlertService_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABD1FEDEE36F80990A2C774A3F5B0CAD /* Pods-ATAlertService_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B46CC2BDE7B75C6FA3C169C4FA4A56 /* Build configuration list for PBXNativeTarget "Pods-ATAlertService_Tests" */;
+			buildPhases = (
+				F21855C5B3BDE8624B03DBAD1129C3F0 /* Headers */,
+				3FB4899BAC545D00643A8B695ADF18F4 /* Sources */,
+				79FD346D6F8AA1D572F7CCF5F63227A1 /* Frameworks */,
+				4CF814CDBEBEDC15EAA54E94E0651527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07244EDD96CA78059AD718F183DEEBF6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ATAlertService_Tests";
+			productName = Pods_ATAlertService_Tests;
+			productReference = 180CDFAAC8621BE3AB4897201A83BBD8 /* Pods-ATAlertService_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4EC5C04BA6EE495BF8BBBC32167F9B2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48532F86A8EF9D5D8B154A250901F6EC /* ATAlertService */,
+				59505F0B8A6C4AC9F9C1B34E63AF4991 /* Pods-ATAlertService_Example */,
+				ABD1FEDEE36F80990A2C774A3F5B0CAD /* Pods-ATAlertService_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF814CDBEBEDC15EAA54E94E0651527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819EF3CE2A160F1F4705CCCE189661D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A124CF9914E381485D607D49560E361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB4899BAC545D00643A8B695ADF18F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0502F2C5954B6C259F82CEB77F84BC /* Pods-ATAlertService_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48CBADC526A2D7134FA760F63517F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2524E614F2C6A10B96842D5E718BA86B /* Pods-ATAlertService_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6657368A94CECA573DED71827CDE9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5847BFD752C5C22322C5F29134FD21BF /* ATAlertService-dummy.m in Sources */,
+				B4B926A09DC97C1FE3C057050259E72A /* ATAlertService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07244EDD96CA78059AD718F183DEEBF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ATAlertService_Example";
+			target = 59505F0B8A6C4AC9F9C1B34E63AF4991 /* Pods-ATAlertService_Example */;
+			targetProxy = 7B87BFA0F28922BCBBA9B5CB3BFD7AA4 /* PBXContainerItemProxy */;
+		};
+		8A0EB3C2E410B5A02EA9E04D614BDDFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATAlertService;
+			target = 48532F86A8EF9D5D8B154A250901F6EC /* ATAlertService */;
+			targetProxy = C7BA4935E773E0DF24027402C9D1F36D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F58C991ADD39AB844F8AC5F45E29FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF19E606245CFC8A4F4A5A3510BBED1C /* ATAlertService.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATAlertService/ATAlertService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATAlertService/ATAlertService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ATAlertService/ATAlertService.modulemap";
+				PRODUCT_MODULE_NAME = ATAlertService;
+				PRODUCT_NAME = ATAlertService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		424D995B4631623DDFE0555C6015B36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7025D3383132789D73B879F8155D6A /* ATAlertService.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATAlertService/ATAlertService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATAlertService/ATAlertService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ATAlertService/ATAlertService.modulemap";
+				PRODUCT_MODULE_NAME = ATAlertService;
+				PRODUCT_NAME = ATAlertService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45238F11F798801687DD63C12BE48BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0959789BC6AA7E8060171FEA8DBFCED /* Pods-ATAlertService_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATAlertService_Tests/Pods-ATAlertService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATAlertService_Tests/Pods-ATAlertService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5362BE145BB6636A521E71F423B5C3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EC0EB22CF140490FC4636A9A226558 /* Pods-ATAlertService_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATAlertService_Example/Pods-ATAlertService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATAlertService_Example/Pods-ATAlertService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		970A1EB8F9513EDF992B4BCA0548B864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575F7CD6AF20E20CC12756925EE30230 /* Pods-ATAlertService_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATAlertService_Example/Pods-ATAlertService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATAlertService_Example/Pods-ATAlertService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FCBA58382819C56F536D2F03CB035EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5513A2231171019F5C907680A8E2B9 /* Pods-ATAlertService_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATAlertService_Tests/Pods-ATAlertService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATAlertService_Tests/Pods-ATAlertService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B46CC2BDE7B75C6FA3C169C4FA4A56 /* Build configuration list for PBXNativeTarget "Pods-ATAlertService_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FCBA58382819C56F536D2F03CB035EC /* Debug */,
+				45238F11F798801687DD63C12BE48BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED036A12F172C838D9C9E80744FC57D /* Build configuration list for PBXNativeTarget "ATAlertService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424D995B4631623DDFE0555C6015B36F /* Debug */,
+				1F58C991ADD39AB844F8AC5F45E29FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9708D348E44F887DF3B9E80A79698F /* Build configuration list for PBXNativeTarget "Pods-ATAlertService_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5362BE145BB6636A521E71F423B5C3F7 /* Debug */,
+				970A1EB8F9513EDF992B4BCA0548B864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
