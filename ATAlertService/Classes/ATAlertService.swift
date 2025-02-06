@@ -182,7 +182,7 @@ public class ATAlertService:NSObject {
         case .every:
             break
         }
-        if let curOperate = curOperate, curOperate.opKey == operate.opKey {
+        if let curOperate = curOperate, curOperate.opKey == operate.opKey, curOperate.combined == operate.combined {
             switch operate.combined {
             case .cover:
                 curOperate.covered(other: operate)

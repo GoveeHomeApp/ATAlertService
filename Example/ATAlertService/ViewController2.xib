@@ -20,21 +20,39 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5s-6a-nmU">
-                    <rect key="frame" x="20" y="97" width="146" height="35"/>
+                    <rect key="frame" x="64" y="97" width="59" height="35"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" title="弹框并自动隐藏"/>
+                    <buttonConfiguration key="configuration" style="plain" title="弹框"/>
                     <connections>
-                        <action selector="showAndHidden:" destination="-1" eventType="touchUpInside" id="Cse-R4-HR3"/>
+                        <action selector="show:" destination="-1" eventType="touchUpInside" id="UeK-Qg-Kup"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNx-4f-sKF">
-                    <rect key="frame" x="213" y="97" width="146" height="35"/>
+                    <rect key="frame" x="239" y="97" width="94" height="35"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" title="合并弹框并显示"/>
+                    <buttonConfiguration key="configuration" style="plain" title="合并显示"/>
                     <connections>
-                        <action selector="combina:" destination="-1" eventType="touchUpInside" id="KF1-Qe-1o5"/>
+                        <action selector="clickMerge:" destination="-1" eventType="touchUpInside" id="gNF-Tz-CQZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4S-Fn-0Bo">
+                    <rect key="frame" x="231" y="134" width="111" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="只显示一次"/>
+                    <connections>
+                        <action selector="clickOnce:" destination="-1" eventType="touchUpInside" id="vQ3-w5-drr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcj-dE-Mfe">
+                    <rect key="frame" x="239" y="177" width="94" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="覆盖显示"/>
+                    <connections>
+                        <action selector="clickCover:" destination="-1" eventType="touchUpInside" id="k3g-zp-faD"/>
                     </connections>
                 </button>
             </subviews>
