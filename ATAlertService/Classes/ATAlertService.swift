@@ -143,6 +143,9 @@ class ATAlertQueue {
 /// 服务
 @objcMembers
 public class ATAlertService:NSObject {
+    
+    public static let shared = ATAlertService()
+    
     public override init() {}
     
     private let container:[ATAlertPriority:ATAlertQueue] = [.high:ATAlertQueue(),.middle:ATAlertQueue(),.low:ATAlertQueue()]
