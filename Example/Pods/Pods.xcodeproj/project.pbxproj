@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22488F2F3560EAB27991744A78CF613B /* ATAlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBAE795FB18900158D3DA359860F55 /* ATAlertService.swift */; };
 		2524E614F2C6A10B96842D5E718BA86B /* Pods-ATAlertService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5561A8F199A38E952966B498C9ABEABB /* Pods-ATAlertService_Example-dummy.m */; };
 		4F0502F2C5954B6C259F82CEB77F84BC /* Pods-ATAlertService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8C3697A059AF44A36E4BE19625F7E6 /* Pods-ATAlertService_Tests-dummy.m */; };
-		5847BFD752C5C22322C5F29134FD21BF /* ATAlertService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DBD65C96B1A1CD92438CC467F5F1C7 /* ATAlertService-dummy.m */; };
 		705A2F2F9D78F78460463BDAF76C8916 /* Pods-ATAlertService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A72768D41038E42E5816D3A01ED60741 /* Pods-ATAlertService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1853CC810CD873FFE10CDD14F622494 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B4B926A09DC97C1FE3C057050259E72A /* ATAlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304045F40CBBABE4E4C54DBB3DD29CC /* ATAlertService.swift */; };
 		BC9D25CF991F2B9E74E3960998316CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C6B5B4256C0438A1835622A90F3C330F /* ATAlertService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3979492CCD933D89148694BD83B43AC3 /* ATAlertService-dummy.m */; };
 		E8F130168CF1605C987045515E1F06B5 /* Pods-ATAlertService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B730DBEBE4BEF4BF3A49D59C9CADBE /* Pods-ATAlertService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF86E12ED520126CF98C34FE762EB810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FD6F50A45CBBD6CBF50527AAE669243E /* ATAlertService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBE61A5239FB4D2F2D34679FBA13034 /* ATAlertService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD6F50A45CBBD6CBF50527AAE669243E /* ATAlertService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 981114B6C9C2CCA2DE2B4E33AE8C19BD /* ATAlertService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,39 +37,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		097113B061A2183A1892CF22633F239B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		180CDFAAC8621BE3AB4897201A83BBD8 /* Pods-ATAlertService_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ATAlertService_Tests"; path = Pods_ATAlertService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B730DBEBE4BEF4BF3A49D59C9CADBE /* Pods-ATAlertService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATAlertService_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2E9185459C6B8BDB2966D44A21E1926C /* Pods-ATAlertService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAlertService_Tests-Info.plist"; sourceTree = "<group>"; };
 		3458080C069AE4FC63E72C847D9C5757 /* Pods-ATAlertService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATAlertService_Example-frameworks.sh"; sourceTree = "<group>"; };
-		36EB15B87417F1F71ACD0CF3EFB1522D /* ATAlertService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ATAlertService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3979492CCD933D89148694BD83B43AC3 /* ATAlertService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATAlertService-dummy.m"; sourceTree = "<group>"; };
+		3ADBAE795FB18900158D3DA359860F55 /* ATAlertService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATAlertService.swift; path = ATAlertService/Classes/ATAlertService.swift; sourceTree = "<group>"; };
 		4A6DBCD4134B6DF98064C42898C03F64 /* Pods-ATAlertService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAlertService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5561A8F199A38E952966B498C9ABEABB /* Pods-ATAlertService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATAlertService_Example-dummy.m"; sourceTree = "<group>"; };
 		575F7CD6AF20E20CC12756925EE30230 /* Pods-ATAlertService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAlertService_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5830FEADACB95755D255CAF0F3219C89 /* Pods-ATAlertService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATAlertService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		59DBD65C96B1A1CD92438CC467F5F1C7 /* ATAlertService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATAlertService-dummy.m"; sourceTree = "<group>"; };
+		58CF5775799962520094BCA6A9C39110 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		596C10DCC774942ADABB43215EE9EC7C /* ATAlertService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAlertService.release.xcconfig; sourceTree = "<group>"; };
 		6A2724863E676B31E459162F74382708 /* Pods-ATAlertService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATAlertService_Example.modulemap"; sourceTree = "<group>"; };
-		6C582970175769F885EC2F7B7EF88A27 /* ATAlertService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATAlertService.modulemap; sourceTree = "<group>"; };
+		6F0B9982D638A386A3ACEDDD9642E149 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		753A8CD0416183775B55ADA50753928D /* Pods-ATAlertService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATAlertService_Tests.modulemap"; sourceTree = "<group>"; };
 		78106705FA04B9CD6482EB945BEEEC8F /* Pods-ATAlertService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAlertService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8611644D0D64F74F0CCAC31B91ECD134 /* ATAlertService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATAlertService.modulemap; sourceTree = "<group>"; };
 		8A8C3697A059AF44A36E4BE19625F7E6 /* Pods-ATAlertService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATAlertService_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		981114B6C9C2CCA2DE2B4E33AE8C19BD /* ATAlertService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATAlertService-umbrella.h"; sourceTree = "<group>"; };
+		9BC37064576F8E18BB2921F137E4BFE8 /* ATAlertService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAlertService.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FBCD5D56AB9D52AFBBF10FDD39551A6 /* Pods-ATAlertService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAlertService_Example-Info.plist"; sourceTree = "<group>"; };
 		A72768D41038E42E5816D3A01ED60741 /* Pods-ATAlertService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATAlertService_Example-umbrella.h"; sourceTree = "<group>"; };
-		AD68833CFE47A0B96CD72491600209AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AE90D2BD6B2E03E4ECDCA0CDDE82910E /* ATAlertService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATAlertService-prefix.pch"; sourceTree = "<group>"; };
+		AA4D85F89A5B18730CCC3CCB1556A603 /* ATAlertService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATAlertService-prefix.pch"; sourceTree = "<group>"; };
+		B197E97F434F177A5B0BEF8D0A470131 /* ATAlertService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ATAlertService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5EC0EB22CF140490FC4636A9A226558 /* Pods-ATAlertService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAlertService_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C0959789BC6AA7E8060171FEA8DBFCED /* Pods-ATAlertService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAlertService_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D005C45A9F150EBA47F146829225F660 /* ATAlertService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ATAlertService-Info.plist"; sourceTree = "<group>"; };
-		D304045F40CBBABE4E4C54DBB3DD29CC /* ATAlertService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATAlertService.swift; path = ATAlertService/Classes/ATAlertService.swift; sourceTree = "<group>"; };
+		CBA6CD2CCE797D0C02BE7DFAE123D5A4 /* ATAlertService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ATAlertService-Info.plist"; sourceTree = "<group>"; };
 		DC5513A2231171019F5C907680A8E2B9 /* Pods-ATAlertService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAlertService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9FEE64242E8B40D5196B765E0163877 /* ATAlertService */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ATAlertService; path = ATAlertService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECBE61A5239FB4D2F2D34679FBA13034 /* ATAlertService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATAlertService-umbrella.h"; sourceTree = "<group>"; };
 		F1F8F26AE386E5CAC30940EAE5FE4E51 /* Pods-ATAlertService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATAlertService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FB7025D3383132789D73B879F8155D6A /* ATAlertService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAlertService.debug.xcconfig; sourceTree = "<group>"; };
 		FE26838829CE76E9C782011DD37EEC2B /* Pods-ATAlertService_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ATAlertService_Example"; path = Pods_ATAlertService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF19E606245CFC8A4F4A5A3510BBED1C /* ATAlertService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAlertService.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,16 +100,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D68ABF44D8C8E47B4150AC40DD4B878 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				36EB15B87417F1F71ACD0CF3EFB1522D /* ATAlertService.podspec */,
-				097113B061A2183A1892CF22633F239B /* LICENSE */,
-				AD68833CFE47A0B96CD72491600209AD /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		4EC5C04BA6EE495BF8BBBC32167F9B2F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +135,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5DE896291B713A60B57106DE34C7CE1E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B197E97F434F177A5B0BEF8D0A470131 /* ATAlertService.podspec */,
+				6F0B9982D638A386A3ACEDDD9642E149 /* LICENSE */,
+				58CF5775799962520094BCA6A9C39110 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		94D9EA36DBF76AA9F749984C6DF61D65 /* Pods-ATAlertService_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,21 +161,25 @@
 			path = "Target Support Files/Pods-ATAlertService_Tests";
 			sourceTree = "<group>";
 		};
-		C0760B8C7E0E033F58DABE6A297C340C /* ATAlertService */ = {
+		A6EB1B1B362821AA87BCE4289D1B5269 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D304045F40CBBABE4E4C54DBB3DD29CC /* ATAlertService.swift */,
-				2D68ABF44D8C8E47B4150AC40DD4B878 /* Pod */,
-				F7C64F8BF256755EC0A86D8DFFC0DFD3 /* Support Files */,
+				8611644D0D64F74F0CCAC31B91ECD134 /* ATAlertService.modulemap */,
+				3979492CCD933D89148694BD83B43AC3 /* ATAlertService-dummy.m */,
+				CBA6CD2CCE797D0C02BE7DFAE123D5A4 /* ATAlertService-Info.plist */,
+				AA4D85F89A5B18730CCC3CCB1556A603 /* ATAlertService-prefix.pch */,
+				981114B6C9C2CCA2DE2B4E33AE8C19BD /* ATAlertService-umbrella.h */,
+				9BC37064576F8E18BB2921F137E4BFE8 /* ATAlertService.debug.xcconfig */,
+				596C10DCC774942ADABB43215EE9EC7C /* ATAlertService.release.xcconfig */,
 			);
-			name = ATAlertService;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ATAlertService";
 			sourceTree = "<group>";
 		};
 		C35B67BD1E91E71223F823ADD5A7BAF8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0760B8C7E0E033F58DABE6A297C340C /* ATAlertService */,
+				D8FFB675A25D6D158C202E3380F08A17 /* ATAlertService */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -199,6 +203,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D8FFB675A25D6D158C202E3380F08A17 /* ATAlertService */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBAE795FB18900158D3DA359860F55 /* ATAlertService.swift */,
+				5DE896291B713A60B57106DE34C7CE1E /* Pod */,
+				A6EB1B1B362821AA87BCE4289D1B5269 /* Support Files */,
+			);
+			name = ATAlertService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		E3AD0767AFCEEA80D9C66D54EA5A2546 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,21 +221,6 @@
 				94D9EA36DBF76AA9F749984C6DF61D65 /* Pods-ATAlertService_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F7C64F8BF256755EC0A86D8DFFC0DFD3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6C582970175769F885EC2F7B7EF88A27 /* ATAlertService.modulemap */,
-				59DBD65C96B1A1CD92438CC467F5F1C7 /* ATAlertService-dummy.m */,
-				D005C45A9F150EBA47F146829225F660 /* ATAlertService-Info.plist */,
-				AE90D2BD6B2E03E4ECDCA0CDDE82910E /* ATAlertService-prefix.pch */,
-				ECBE61A5239FB4D2F2D34679FBA13034 /* ATAlertService-umbrella.h */,
-				FB7025D3383132789D73B879F8155D6A /* ATAlertService.debug.xcconfig */,
-				FF19E606245CFC8A4F4A5A3510BBED1C /* ATAlertService.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ATAlertService";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +258,7 @@
 			buildConfigurationList = 5ED036A12F172C838D9C9E80744FC57D /* Build configuration list for PBXNativeTarget "ATAlertService" */;
 			buildPhases = (
 				AEDED4953944721EC9D22C709483BDF0 /* Headers */,
-				E6657368A94CECA573DED71827CDE9D3 /* Sources */,
+				FEEE1AB5EA391D84C00C7C7277FD3412 /* Sources */,
 				C9FDE442E397D5FFA1BBA4F867E40D03 /* Frameworks */,
 				819EF3CE2A160F1F4705CCCE189661D7 /* Resources */,
 			);
@@ -379,12 +379,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6657368A94CECA573DED71827CDE9D3 /* Sources */ = {
+		FEEE1AB5EA391D84C00C7C7277FD3412 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5847BFD752C5C22322C5F29134FD21BF /* ATAlertService-dummy.m in Sources */,
-				B4B926A09DC97C1FE3C057050259E72A /* ATAlertService.swift in Sources */,
+				22488F2F3560EAB27991744A78CF613B /* ATAlertService.swift in Sources */,
+				C6B5B4256C0438A1835622A90F3C330F /* ATAlertService-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +408,7 @@
 /* Begin XCBuildConfiguration section */
 		1F58C991ADD39AB844F8AC5F45E29FF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF19E606245CFC8A4F4A5A3510BBED1C /* ATAlertService.release.xcconfig */;
+			baseConfigurationReference = 596C10DCC774942ADABB43215EE9EC7C /* ATAlertService.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -440,7 +440,7 @@
 		};
 		424D995B4631623DDFE0555C6015B36F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB7025D3383132789D73B879F8155D6A /* ATAlertService.debug.xcconfig */;
+			baseConfigurationReference = 9BC37064576F8E18BB2921F137E4BFE8 /* ATAlertService.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -591,7 +591,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

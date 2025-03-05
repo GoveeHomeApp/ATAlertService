@@ -34,7 +34,7 @@ class ViewController2: UIViewController {
         alertService.show()
     }
     @IBAction func clickCover(_ sender: Any) {
-        let operate3 = ATAlertOperate.create(opKey: "test3",title:"测试标题33", text: "测试标题33", combined: .cover) { operate in
+        let operate3 = ATAlertOperate.create(opKey: "test3",title:"测试标题33", text: "测试标题33", data: 3, combined: .cover) { operate in
             let alert = CustomAlert.show(inView:UIApplication.shared.keyWindow!, title: operate.title, msg: operate.text) { [weak operate] in
                 operate?.finished()
             } cancelBlock: { [weak operate] in
@@ -47,7 +47,7 @@ class ViewController2: UIViewController {
     }
     @IBAction func clickMerge(_ sender: Any) {
         let inView:UIView = view
-        let operate2 = ATAlertOperate.create(opKey: "test2", title:"测试22", text: "弹框测试22", combined: .merged) { operate in
+        let operate2 = ATAlertOperate.create(opKey: "test2", title:"测试22", text: "弹框测试22", data: 2, combined: .merged) { operate in
             let alert = CustomAlert.show(inView:inView, title: operate.title, msg: operate.text) { [weak operate] in
                 operate?.finished()
             } cancelBlock: { [weak operate] in
@@ -71,7 +71,7 @@ class ViewController2: UIViewController {
         }
         alertService.append(operate: operate, priority: .low, frequency: .once)
         
-        let operate2 = ATAlertOperate.create(opKey: "test2", title:"测试2", text: "弹框测试2", combined: .merged) { operate in
+        let operate2 = ATAlertOperate.create(opKey: "test2", title:"测试2", text: "弹框测试2", data: 1, combined: .merged) { operate in
             let alert = CustomAlert.show(inView:inView, title: operate.title, msg: operate.text) { [weak operate] in
                 operate?.finished()
             } cancelBlock: { [weak operate] in
@@ -80,6 +80,7 @@ class ViewController2: UIViewController {
             operate.updateAlertBlock = { [weak alert] operate in
                 alert?.update(title: operate.title)
                 alert?.update(message: operate.text)
+                print("operate2.mergedDatas:\(operate.mergedDatas)")
             }
             return alert
         }
@@ -94,6 +95,7 @@ class ViewController2: UIViewController {
             operate.updateAlertBlock = { [weak alert] operate in
                 alert?.update(title: operate.title)
                 alert?.update(message: operate.text)
+                print("operate3.data:\(operate.data)")
             }
             return alert
         }

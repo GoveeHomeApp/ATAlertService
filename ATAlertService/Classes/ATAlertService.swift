@@ -40,6 +40,8 @@ public class ATAlertOperate: NSObject {
     fileprivate private(set) var opKey:String = ""
     public private(set) var title:String = ""
     public private(set) var text:String = ""
+    public private(set) var data:Any?
+    public private(set) var mergedDatas:[Any] = []
     private(set) var createAlertBlock:((_ operate:ATAlertOperate) -> UIView)?
     public var updateAlertBlock:((_ operate:ATAlertOperate) -> Void)?
     
@@ -49,11 +51,15 @@ public class ATAlertOperate: NSObject {
     
     private override init() {}
     
-    public static func create(opKey: String, title: String, text: String, combined:ATAlertCombined, separator:String = " ", createAlertBlock: (@escaping (_ operate:ATAlertOperate) -> UIView)) -> ATAlertOperate {
+    public static func create(opKey: String, title: String, text: String, data:Any? = nil, combined:ATAlertCombined, separator:String = " ", createAlertBlock: (@escaping (_ operate:ATAlertOperate) -> UIView)) -> ATAlertOperate {
         let obj = ATAlertOperate()
         obj.opKey = opKey
         obj.title = title
         obj.text = text
+        obj.data = data
+        if let data = data {
+            obj.mergedDatas = [data]
+        }
         obj.combined = combined
         obj.separator = separator
         obj.createAlertBlock = createAlertBlock
@@ -67,11 +73,15 @@ public class ATAlertOperate: NSObject {
     fileprivate func covered(other:ATAlertOperate) {
         self.title = other.title
         self.text = other.text
+        self.data = other.data
     }
     
     fileprivate func merged(other:ATAlertOperate) {
         self.title += other.separator + other.title
         self.text += other.separator + other.text
+        if let data = other.data {
+            self.mergedDatas.append(data)
+        }
     }
     
     fileprivate func show() {
